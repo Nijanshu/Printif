@@ -20,23 +20,23 @@ export default class Footer extends Component {
         
         </a>
         <div className='tw-text-4xl p-4 tw-space-x-4 tw-flex tw-justify-end'>
-           <a href="#">
-           <FaFacebook/>
+           <a href="#" >
+           <FaFacebook className=' hover:tw-text-green-800'/>
             </a> 
            <a href="#">
-           <FaInstagramSquare/>
+           <FaInstagramSquare className=' hover:tw-text-green-800'/>
             </a> 
            <a href="#">
-           <FaXTwitter/>
+           <FaXTwitter className=' hover:tw-text-green-800'/>
             </a> 
            <a href="#">
-           <FaLinkedin/>
+           <FaLinkedin className=' hover:tw-text-green-800'/>
             </a> 
            <a href="#">
-           <FaYoutube/>
+           <FaYoutube className=' hover:tw-text-green-800'/>
             </a> 
            <a href="#">
-           <FaReddit/>
+           <FaReddit className=' hover:tw-text-green-800'/>
             </a> 
         </div>
       </div>
